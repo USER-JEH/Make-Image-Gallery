@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.product-small-img img{
+	display: block;
+	height: 92px;
+	margin: 10px 0;
+	cursor: pointer;
+	width: 90px;
+  object-fit: cover;
+	opacity: .6;
+	
+}
+
+.product-small-img img:hover{
+	opacity: 1;
+}
+.product-small-img{
+	float: left;
+}
+
+.product{
+	padding:30px 40px;
+	position: absolute;
+
+}
+
+.img-container img{
+	height: 300px;
+}
+
+.img-container{
+	float: right;
+	padding: 10px;
+}
+
